@@ -89,7 +89,7 @@ body {
 
 
 
- .header-logo {
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -99,7 +99,7 @@ body {
     color: var(--iris);
     /* padding: 24px 0; */
     margin-right: 76px;
- }
+}
 
 .header-menu-list {
     display: flex;
@@ -107,11 +107,11 @@ body {
     gap: 40px;
 }
 
-/* .header-logo .header-accent {
+.header-logo .header-accent {
    color: var(--navy-blue);
- } */
+ }
  
- /* .header-nav-link {
+.header-nav-link {
     display: block;
     padding: 24px 0;
     font-weight: 500;
@@ -121,14 +121,14 @@ body {
     color: var(--navy-blue);
     
     
- }
+}
 
- .header-nav-link.current {
+.header-nav-link.current {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .header-nav-link.current::after {
+.header-nav-link.current::after {
     content: '';
    
     position: absolute;
@@ -142,29 +142,29 @@ body {
     background-color: var(--ocean);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
- } */
+}
 
- .header-address {
+.header-address {
     font-style: normal;
     margin-left: auto;
- }
+}
 
- .header-address-list {
+.header-address-list {
     display: flex;
     align-items: center;
     gap: 40px;
- }
+}
 
-/* .header-nav-link:hover,
+.header-nav-link:hover,
 .header-nav-link:focus,
 .header-address-link:hover,
 .header-address-link:focus,
 .header-nav-link.current {
     color: #404bbf;
-} */
+}
 
 
- .header-address-link {
+.header-address-link {
     display: block;
     padding: 24px 0;
     font-weight: 400;
@@ -175,7 +175,7 @@ body {
     font-style: normal;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+}
 
  .hero {
     background-color: #2e2f42;
@@ -247,9 +247,9 @@ body {
 
     display: block;
     content: "";
-    /* height: 120px;
+    height: 120px;
     margin-bottom: 30px;
-    background-color: #f5f4fa; */
+    background-color: #f5f4fa;
 }
 
 .svg-icon {
@@ -266,22 +266,22 @@ body {
 
 
 
- .features-subtitle {
+.features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     margin-bottom: 8px;
- }
+}
 
- .features-item-text {
+.features-item-text {
     /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--slate);
- }
+}
 
  /* -----------OUR TEAM------- */
 .team {
@@ -303,7 +303,7 @@ body {
 }
 
 
- .team-title {
+.team-title {
     margin-bottom: 72px;
     padding-top: 120px;
     padding-bottom: 72px;
@@ -314,7 +314,7 @@ body {
     text-align: center;
     color: var(--navy-blue);
     text-transform: capitalize;
- }
+}
 
 .team-list {
     display: flex;
