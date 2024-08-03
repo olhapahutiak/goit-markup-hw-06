@@ -526,7 +526,7 @@ img {
     padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/hero\ image\ -mobile-1x.jpg);
+        url(../images/hero\ image-mobile-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -547,7 +547,7 @@ img {
     text-align: center;
 }
 
-.button {
+.hero-btn {
     font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
